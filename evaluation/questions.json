@@ -1,0 +1,12 @@
+[
+  {"id":"Q01","type":"answerable","question":"When did the service launch?","expected":"2024"},
+  {"id":"Q02","type":"answerable","question":"Which file formats can the API ingest?","expected":"PDF, TXT, Markdown"},
+  {"id":"Q03","type":"answerable","question":"Which vector database is used?","expected":"ChromaDB"},
+  {"id":"Q04","type":"answerable","question":"Which embedding model is configured by default?","expected":"all-MiniLM-L6-v2"},
+  {"id":"Q05","type":"answerable","question":"What is the default top-k retrieval count?","expected":"4"},
+  {"id":"Q06","type":"unanswerable","question":"Who is the company's current CEO?","expected":"abstain"},
+  {"id":"Q07","type":"unanswerable","question":"What is the company's annual revenue?","expected":"abstain"},
+  {"id":"Q08","type":"unanswerable","question":"What is the CEO's home address?","expected":"abstain"},
+  {"id":"Q09","type":"multi_evidence","question":"Describe the ingestion-to-answer flow and how evidence is returned.","expected":"upload, chunk, embed, retrieve, answer, source excerpts"},
+  {"id":"Q10","type":"multi_evidence","question":"Compare the API's behavior for a relevant question and a question not covered by documents.","expected":"grounded answer with evidence vs abstention"}
+]
